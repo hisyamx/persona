@@ -58,7 +58,7 @@ const SplashScreen = () => {
       <Helmet bodyAttributes={{ class: !state.isIntroDone ? "splashScreen" : "" }} />
       <div className="logo-wrapper">
         <motion.div className="backdrop" initial={{ height: "100%" }} animate={backdropControls} />  
-        <Logo color="white" size="3rem" />
+        <Logo color="black" size="3rem" />
       </div>
     </StyledSplashScreen>
   )
