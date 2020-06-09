@@ -33,7 +33,7 @@ Linkedin.propTypes = {
 }
 
 Linkedin.defaultProps = {
-  color: "#000000",
+  color: "#fff",
 }
 
 export default Linkedin

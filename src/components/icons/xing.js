@@ -27,7 +27,7 @@ Xing.propTypes = {
 }
 
 Xing.defaultProps = {
-  color: "#000000",
+  color: "#fff",
 }
 
 export default Xing

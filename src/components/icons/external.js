@@ -34,7 +34,7 @@ External.propTypes = {
 }
 
 External.defaultProps = {
-  color: "#000000",
+  color: "#fff",
 }
 
 export default External
