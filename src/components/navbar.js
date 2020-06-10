@@ -20,10 +20,10 @@ const StyledNav = styled.nav`
   }
   .nav-link {
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     position: relative;
-    margin: 0 0 0 1.25rem;
+    margin: 0 0 0 5.25rem;
     padding: 0;
     &::before {
       transition: 200ms ease-out;
