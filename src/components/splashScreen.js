@@ -16,7 +16,7 @@ const StyledSplashScreen = styled(motion.div)`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.background};
   .logo-wrapper {
       position: relative;
       display: flex;
@@ -32,7 +32,7 @@ const StyledSplashScreen = styled(motion.div)`
       z-index: 1000;
       width: 100%;
       height: 100%;
-      background-color: ${({ theme }) => theme.colors.primary};
+      background-color: ${({ theme }) => theme.colors.background};
   }
 `
 
@@ -58,7 +58,7 @@ const SplashScreen = () => {
       <Helmet bodyAttributes={{ class: !state.isIntroDone ? "splashScreen" : "" }} />
       <div className="logo-wrapper">
         <motion.div className="backdrop" initial={{ height: "100%" }} animate={backdropControls} />  
-        <Logo color="black" size="3rem" />
+        <Logo color="white" size="3rem" />
       </div>
     </StyledSplashScreen>
   )

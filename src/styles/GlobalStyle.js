@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         margin: 0;
         padding: 0;
-        background-color: #000000;
+        background-color: #121212;
         color: ${({ theme }) => theme.colors.text};
         font-size: 1rem;
         font-family: ${({ theme }) => theme.fonts.primary};
@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
             overflow: hidden;
             #___gatsby #main-content > * {
               filter: blur(5px) ;
-              transition: all .3s ease-out;
+              transition: all .2s ease-out;
               pointer-events: none;
               user-select: none;
             }
