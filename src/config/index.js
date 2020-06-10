@@ -46,11 +46,11 @@ module.exports = {
                 name: "Projects",
                 url: "/#projects",
             },
-        ],
-        button: {
-            name: "Contact",
-            url: "/#contact",
-        }
+            {
+                name: "Contact",
+                url: "/#contact",
+            }
+        ]
     },
 
     footerLinks: [
