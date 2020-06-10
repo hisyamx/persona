@@ -10,7 +10,7 @@ const StyledLogo = styled.div`
   position: relative;
   z-index: 13;
 
-  font-size: ${({ size }) => (size ? size : "1.5rem")};
+  font-size: ${({ size }) => (size ? size : "2.5rem")};
   font-weight: 900;
   color: ${({ theme, color }) => theme.colors[color] || color };
 
