@@ -52,7 +52,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       }
     }
     .subtitle {
-      margin-top: -0.75rem;
+      margin-top: 0.75rem;
     }
     .description {
       font-size: 1.125rem;
