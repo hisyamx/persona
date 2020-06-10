@@ -54,7 +54,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       flex-direction: row;
       margin-top: -2.5rem;
       padding: 2.5rem 2.5rem;
-      overflow-x: scroll;
+      overflow-x: touch;
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
       &::-webkit-scrollbar {
@@ -79,12 +79,12 @@ const StyledContentWrapper = styled(ContentWrapper)`
 
         &::-webkit-scrollbar-thumb {
           border-radius: 8px;
-          border: 0.2rem solid white;
-          background-color: rgba(0, 0, 0, 0.5);
+          border: none;
+          background-color: #121212;
         }
 
         &::-webkit-scrollbar-track {
-          background-color: #fff;
+          background-color: #121212;
           border-radius: 8px;
         }
       }
@@ -157,7 +157,7 @@ const StyledProject = styled(motion.div)`
       span {
         margin-right: 1rem;
         margin-bottom: 1rem;
-      }
+      }s
     }
     .links {
       display: flex;

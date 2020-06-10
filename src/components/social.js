@@ -19,7 +19,7 @@ const StyledSocialWrapper = styled.div`
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 
-  overflow-x: scroll;
+  overflow-x: touch;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
@@ -45,12 +45,12 @@ const StyledSocialWrapper = styled.div`
 
     &::-webkit-scrollbar-thumb {
       border-radius: 8px;
-      border: 0.2rem solid white;
-      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      background-color: #121212;
     }
 
     &::-webkit-scrollbar-track {
-      background-color: #000000;
+      background-color: #121212;
       border-radius: 8px;
     }
   }
@@ -88,7 +88,7 @@ const StyledSocialProfile = styled.a`
   }
   &:hover svg {
     /* Change svg color to white */
-    filter: brightness(0) invert(1);
+    filter: brightness(100) invert(1);
   }
   svg {
     height: 1rem;

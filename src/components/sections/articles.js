@@ -38,7 +38,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
     .articles {
       display: flex;
       justify-content: space-between;
-      overflow-x: scroll;
+      overflow-x: touch;
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
       margin: -2rem 0 0 0;
@@ -63,12 +63,12 @@ const StyledContentWrapper = styled(ContentWrapper)`
 
         &::-webkit-scrollbar-thumb {
           border-radius: 8px;
-          border: 0.2rem solid white;
-          background-color: rgba(0, 0, 0, 0.5);
+          border: none;
+          background-color: #121212;
         }
 
         &::-webkit-scrollbar-track {
-          background-color: #fff;
+          background-color: #121212;
           border-radius: 8px;
         }
       }
