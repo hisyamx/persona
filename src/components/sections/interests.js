@@ -100,7 +100,7 @@ const StyledInterests = styled.div`
     justify-content: flex-start;
     align-items: center;
     padding: 1rem;
-    border: 0.125rem solid ${({ theme }) => theme.colors.primary};
+    border: 0.125rem solid ${({ theme }) => theme.colors.background};
     border-radius: ${({ theme }) => theme.borderRadius};
     .icon {
       margin-right: 0.5rem;
