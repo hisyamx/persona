@@ -12,7 +12,7 @@ const StyledButton = styled.button`
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
-  border: none;
+  border: 0.125rem solid ${({ theme }) => theme.colors.background};
   border-radius: ${({ theme }) => theme.borderRadius};
   text-decoration: none;
   text-align: ${({ textAlign }) => textAlign ? textAlign : "left"};
