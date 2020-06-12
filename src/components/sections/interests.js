@@ -13,7 +13,7 @@ const StyledSection = styled.section`
   width: 100%;
   height: auto;
   background: ${({ theme }) => theme.colors.background};
-  margin-top: 6rem;
+  margin-top: 5rem;
 `
 
 const StyledContentWrapper = styled(ContentWrapper)`
@@ -45,9 +45,9 @@ const StyledInterests = styled.div`
   /* Calculate how many columns are needed, depending on interests count */
   grid-template-columns: repeat(
     ${({ itemCount }) => Math.ceil(itemCount / 2)},
-    15.625rem
+    10.625rem
   );
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
   grid-auto-flow: column;
   column-gap: 1rem;
   row-gap: 1rem;
@@ -66,7 +66,7 @@ const StyledInterests = styled.div`
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
     grid-auto-flow: row;
-    grid-template-columns: repeat(3, 15.625rem);
+    grid-template-columns: repeat(3, 16.625rem);
     overflow: visible;
     padding: 0;
   }
