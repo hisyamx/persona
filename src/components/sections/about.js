@@ -53,7 +53,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       filter: grayscale(90%) contrast(1) brightness(90%);
       transition: all 0.3s ease-out;
       &:hover {
-        filter: grayscale(20%) contrast(1) brightness(90%);
+        filter: grayscale(0%) contrast(1) brightness(90%);
         transform: translate3d(0px, -0.125rem, 0px);
         box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.32);
       }
