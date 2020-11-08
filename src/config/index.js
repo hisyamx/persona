@@ -1,8 +1,8 @@
 module.exports = {
 
     author: "@hisyamk",
-    siteTitle: "Khusnul Hisyam",
-    siteShortTitle: "Hisyam", // Used as logo text in header, footer, and splash screen
+    siteTitle: "Khusnul Hisyam Personal Site",
+    siteShortTitle: "kh.", // Used as logo text in header, footer, and splash screen
     siteDescription: "Let's talk about interface design and life.",
     siteUrl: "https://hisyamk.netlify.app/",
     siteLanguage: "en_US",
@@ -14,11 +14,10 @@ module.exports = {
     // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
     mediumRssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40hisyamk",
     shownArticles: 3,
-    
+
     // There are icons available for the following platforms: 
     // Medium, GitHub, LinkedIn, XING, Behance
-    socialMedia: [
-        {
+    socialMedia: [{
             name: "Linkedin",
             url: "https://www.linkedin.com/in/hisyamk/"
         },
@@ -35,10 +34,9 @@ module.exports = {
             url: "https://www.behance.net/hisyamk_"
         },
     ],
-  
+
     navLinks: {
-        menu: [
-            {
+        menu: [{
                 name: "About Me",
                 url: "/#about",
             },
@@ -53,10 +51,8 @@ module.exports = {
         ]
     },
 
-    footerLinks: [
-        {
-            name: "Privacy",
-            url: "/privacy"
-        },
-    ]
+    footerLinks: [{
+        name: "Privacy",
+        url: "/privacy"
+    }, ]
 }
