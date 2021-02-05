@@ -14,7 +14,7 @@ import Icon from "../../components/icons"
 
 const StyledSection = styled.section`
   width: 100%;
-  height: auto;
+  height: 80%;
   background: ${({ theme }) => theme.colors.background};
   margin-top: 6rem;
   .cta-btn {
@@ -30,7 +30,7 @@ const StyledSection = styled.section`
 const StyledContentWrapper = styled(ContentWrapper)`
   && {
     width: 100%;
-    height: 100%;
+    height: 80%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -182,7 +182,7 @@ const StyledProject = styled(motion.div)`
   .screenshot {
     width: 100%;
     max-width: 25rem;
-    height: 15rem;
+    height: 12rem;
     border-radius: ${({ theme }) => theme.borderRadius};
     box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
     transition: all 0.3s ease-out;
