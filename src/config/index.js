@@ -1,10 +1,10 @@
 module.exports = {
 
     author: "@hisyamk",
-    siteTitle: "Khusnul Hisyam Personal Site",
+    siteTitle: "Holaa! My Personal Site - Khusnul Hisyam",
     siteShortTitle: "kh.", // Used as logo text in header, footer, and splash screen
     siteDescription: "Let's talk about interface design and life.",
-    siteUrl: "https://hisyamk.netlify.app/",
+    siteUrl: "https://hisyamk.now.sh/",
     siteLanguage: "en_US",
     siteIcon: "src/content/favicon.png", // Relative to gatsby-config file
 
@@ -41,7 +41,7 @@ module.exports = {
                 url: "/#about",
             },
             {
-                name: "Portfolio",
+                name: "Project",
                 url: "/#projects",
             },
             {
